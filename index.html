@@ -19,6 +19,10 @@
       padding: 1rem;
       text-align: center;
     }
+    header img {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
     nav {
       margin-top: 10px;
     }
@@ -61,6 +65,9 @@
       text-align: center;
       padding: 1rem;
     }
+    footer p {
+      margin: 5px 0;
+    }
     /* 🔹 Ajuste responsivo para móviles */
     @media (max-width: 600px) {
       nav {
@@ -73,12 +80,17 @@
       section {
         padding: 1rem;
       }
+      header img {
+        max-width: 100px;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
+    <!-- 🔹 Logo: asegúrate de subir un archivo llamado "logo.png" -->
+    <img src="logo.png" alt="Logotipo Talento Sin Barreras">
     <h1>Talento Sin Barreras</h1>
     <p>Empleamos con dignidad, capacitamos con equidad</p>
     <nav>
